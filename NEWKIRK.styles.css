@@ -201,6 +201,7 @@ img{
 }
 
 
+
 /* ---------- SMALL SCREEN STYLES ---------- */
 /* --------------- BEGIN SMALL SCREEN SIZES --------------- */
     /* header, footer{
@@ -230,7 +231,7 @@ img{
         max-width: 200px;
     } */
 
-    @media (min-width: 480px) {
+    @media (min-width: 460px) {
             header, footer{
                 background-color: var(--lime-green);
                 color: var(--dark-gray);
@@ -291,7 +292,7 @@ img{
         grid-row: 3/5;
     } */
 
-    @media (min-width: 768px){
+    @media (min-width: 620px){
         header, footer{
             background-color: var(--black);
             color: var(--white);
@@ -480,7 +481,7 @@ img{
         padding-top: 2em;
     } */
 
-    @media (min-width: 1450px){
+    @media (min-width: 1380px){
         header, footer{
             background-color: var(--orange);
             padding-left: 5%;
